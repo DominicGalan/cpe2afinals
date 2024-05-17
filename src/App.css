@@ -1,0 +1,45 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.CalcContainer {
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(to top, black, gray);
+}
+
+.CalcDisplay {
+  border: 1px solid #505050;
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 40px;
+  font-size: 2em;
+  text-align: right;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ButtonContainer > button {
+  justify-content: center;
+  border: 1px solid #1C1C1C;
+  padding: 7px;
+  color: white;
+  font-size: 2em;
+  background: linear-gradient(to top, black, gray);
+  border-radius: 10px;
+}
+
+.MyName{
+  font-size: 2em;
+  margin: 20px;
+}
